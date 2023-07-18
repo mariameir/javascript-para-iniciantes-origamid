@@ -19,5 +19,12 @@ console.log(typeof numeroString);
 
 idade= 24;
 
-nome= "maria";
+nome= "maria ";
 sobrenome= "souza";
+console.log(nome+sobrenome);
+
+frase= "It's time";
+console.log(frase);
+
+console.log(typeof nome);
+
