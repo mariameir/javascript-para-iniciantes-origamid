@@ -55,3 +55,27 @@ console.log(pi);
 /**
  * Math é um objeto nativo de JavaScript. Já percebeu que console é um objeto e log() um metodo?
  */
+
+
+
+//Criar Objeto - Um objeto e criado utilizando as chaves {}
+var carro = {};
+var pessoa = {};
+console.log(typeof carro);
+
+
+// Dot Notation Get - acesse propriedades de um objeto utilizando o ponto .
+var menu = {
+  width:800,
+  height:50,
+  backgroundColor: '#84E',
+}
+
+menu.backgroundColor = '#000';
+menu.color = 'blue';
+
+menu.esconder = function(){
+  console.log('escondi')
+}
+
+var bg = menu.backgroundColor; //  '#84E'
