@@ -85,10 +85,45 @@ Dot  Notation
 Substitua a propriedade utilizando . e o = apos  o nome da mesma 
 */
 var menu = {
-  width : 800,
-  height: 50,
+  width = 800,
+  heigth: 50,
   backgroundColor:'#000'
 }
 
 menu.backgroundColor= '#000';
 console.log(menu.backgroundColor)
+
+//Adicionar propriedades e metodos - basta adicionar um novo nome e definir seu valor
+var menu2 ={
+  width: 800,
+}
+menu2.heigth=50;
+
+
+/*
+Palavra-chave this
+this irá fazer um referência ao próprio objeto 
+*/
+var heigth=120;
+var menu3={
+  with: 800,
+  heigth:50,
+  metadeHeight(){
+    return this.heigth /2;
+  }
+}
+
+menu3.metadeHeight(); // resulta em 25
+// sem o this, retornaria 60
+
+
+/*
+Prótotipo e Herança
+O objeto herda propriedades e metodos do objeto que foi utilizado para criar o mesmo.
+*/
+var menu4= {
+  width:800,
+}
+menu4.hasOwnProperty('width')//true
+menu4.hasOwnProperty('heigth')//false
+//hasOwnProperty é um metodo de object
