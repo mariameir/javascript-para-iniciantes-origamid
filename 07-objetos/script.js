@@ -57,7 +57,6 @@ console.log(pi);
  */
 
 
-
 //Criar Objeto - Um objeto e criado utilizando as chaves {}
 var carro = {};
 var pessoa = {};
