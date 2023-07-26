@@ -85,11 +85,10 @@ Dot  Notation
 Substitua a propriedade utilizando . e o = apos  o nome da mesma 
 */
 var menu = {
-  width = 800,
-  heigth: 50,
+  width : 800,
+  height: 50,
   backgroundColor:'#000'
 }
 
 menu.backgroundColor= '#000';
 console.log(menu.backgroundColor)
-
