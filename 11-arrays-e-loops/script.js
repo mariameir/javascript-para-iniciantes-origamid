@@ -33,7 +33,7 @@ while (i < 10){
 // o for loop é mais comum
 
 
-//ARRAYS E LOOPS
+//ARRAYS E LOOPS IMPORTANTE
 var videoGames2 = ['Switch', 'PS4', 'XBox', '3DS'];
 for (var i = 0; i<videoGames2.length; i++){
   console.log(videoGames2[i]);
@@ -43,7 +43,7 @@ for (var i = 0; i<videoGames2.length; i++){
 
 //BREAK - o loop irá parar caso encontre a palavra break
 var videoGames3 = ['Switch', 'PS4', 'XBox', '3DS'];
-for (var i = 0 ; i<videoGames3.length; i++){
+for (var i = 0 ; i < videoGames3.length; i++){
   console.log(videoGames3[i]);
   if(videoGames3[i] =='PS4'){
     break; 
